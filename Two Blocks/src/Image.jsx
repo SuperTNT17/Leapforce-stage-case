@@ -1,9 +1,11 @@
 import './Image.css';
+import ctaImage from './assets/cta-image.jpg';
 
 export function Image() {
     return (
         <div className='imageContainer'>
-            <img src="" alt="cta-image" />
+            <img src={ctaImage} alt="cta-image" />
+            <div className='imageGradient'></div>
             <div className='imageCTA'>
                 <div className='imageText'>
                     <p className='imageTextTitle'>Title</p>

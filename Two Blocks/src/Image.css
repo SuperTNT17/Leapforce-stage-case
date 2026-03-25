@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "TT Commons Pro";
+    font-weight: normal;
+    src: url("assets/fonts/TT Commons Pro/TT\ Commons\ Pro\ Normal.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TT Commons Pro";
+    font-weight: 600;
+    src: url("assets/fonts/TT Commons Pro/TT\ Commons\ Pro\ DemiBold.otf") format("opentype");
+}
+
+/* font imports nog fixen met verschillende weights */
+
+.imageContainer {
+    position: relative;
+    max-width: 644px;
+    max-height: fit-content;
+}
+
+img {
+    width: 644px;
+    height: 515px;
+    object-fit: cover;
+}
+
+.imageGradient {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(515px / 2);
+    background: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
+}
+
+.imageCTA {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-bottom: 32px;
+    width: 644px;
+}
+
+.imageTextTitle {
+    color: #FFFFFF;
+    font-family: TT Commons Pro;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -2%;
+    vertical-align: bottom;
+}
+
+.imageTextSub {
+    color: #FAFAFA;
+    opacity: 50%;
+    font-family: TT Commons Pro;
+    font-weight: 450;
+    font-style: Normal;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
+}
+
+.imageButton {
+    color: #FFFFFF;
+}
