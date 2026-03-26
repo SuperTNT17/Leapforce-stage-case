@@ -5,12 +5,10 @@
 }
 
 @font-face {
-    font-family: "TT Commons Pro";
+    font-family: "TT Commons Pro DemiBold";
     font-weight: 600;
     src: url("assets/fonts/TT Commons Pro/TT\ Commons\ Pro\ DemiBold.otf") format("opentype");
 }
-
-/* font imports nog fixen met verschillende weights */
 
 .imageContainer {
     position: relative;
@@ -45,7 +43,7 @@ img {
 
 .imageTextTitle {
     color: #FFFFFF;
-    font-family: TT Commons Pro;
+    font-family: TT Commons Pro DemiBold;
     font-weight: 600;
     font-size: 28px;
     line-height: 32px;
@@ -66,5 +64,18 @@ img {
 }
 
 .imageButton {
-    color: #FFFFFF;
+    width: 56px;
+    height: 56px;
+    border: 2px solid #ffffff30;
+    border-radius: 4px;
+    padding: 16px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageButton > img{
+    height: 12px;
+    width: 12px;
 }

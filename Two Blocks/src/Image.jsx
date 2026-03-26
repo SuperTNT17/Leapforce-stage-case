@@ -1,5 +1,6 @@
 import './Image.css';
-import ctaImage from './assets/cta-image.jpg';
+import ctaImage from './assets/images/cta-image.jpg';
+import rightArrow from './assets/images/rightArrow.svg';
 
 export function Image() {
     return (
@@ -11,7 +12,7 @@ export function Image() {
                     <p className='imageTextTitle'>Title</p>
                     <p className='imageTextSub'>Supporting text about the call-to-action goes here.</p>
                 </div>
-                <a href="" className='imageButton'>-&gt;</a>
+                <a href="" className='imageButton'><img src={rightArrow} alt="right pointing arrow" /></a>
             </div>
         </div>
     )
