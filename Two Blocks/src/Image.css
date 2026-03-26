@@ -40,7 +40,7 @@ img {
     padding-left: 24px;
     padding-right: 24px;
     margin-bottom: 32px;
-    width: 644px;
+    width: 100%;
 }
 
 .imageTextTitle {
@@ -81,4 +81,46 @@ img {
 .imageButton > img{
     height: 12px;
     width: 12px;
+}
+
+@media screen and (max-width: 375px) {
+    .imageContainer{
+        max-width: 335px;
+    }
+
+    img{
+        width: 335px;
+        height: 252px;
+    }
+
+    .imageCTA{
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 24px;
+        align-items: flex-end;
+    }
+
+    .imageTextTitle{
+        font-family: TT Commons Pro DemiBold;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: -1%;
+        vertical-align: bottom;
+    }
+
+    .imageTextSub{
+        font-family: TT Commons Pro;
+        font-weight: 450;
+        font-style: Normal;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+    }
+
+    .imageButton{
+        width: 48px;
+        height: 48px;
+    }
 }

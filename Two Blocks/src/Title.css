@@ -77,6 +77,7 @@
     letter-spacing: 0%;
     text-align: center;
     color: #1E2526;
+    opacity: 80%;
     margin-top: 24px;
     margin-bottom: 24px;
 }
@@ -97,4 +98,70 @@
     height: 12px;
     margin-left: 10px;
     margin-right: 6px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .titleContainer {
+        width: 335px;
+        height: 225px;
+        gap: 16px;
+    }
+
+    .labelTitleContainer {
+        width: 335px;
+        height: 145px;
+        gap: 8px;
+    }
+
+    .titleLabel{
+        font-family: TT Commons Pro;
+        font-weight: 450;
+        font-style: Normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 2%;
+        text-align: center;
+    }
+
+    .title{
+        font-family: TT Commons Pro DemiBold;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -2%;
+        text-align: center;
+        height: 121px;
+    }
+
+    .title>span{
+        font-family: "GT Alpina Light";
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: -3%;
+        text-align: center;
+        color: #212121;
+    }
+
+    .titleBody{
+        font-family: TT Commons Pro;
+        font-weight: 450;
+        font-style: Normal;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .titleButton{
+        font-family: TT Commons Pro;
+        font-weight: 450;
+        font-style: Normal;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
 }
