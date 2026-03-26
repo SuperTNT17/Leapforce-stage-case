@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "TT Commons Pro";
+    font-weight: normal;
+    src: url("assets/fonts/TT Commons Pro/TT\ Commons\ Pro\ Normal.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "TT Commons Pro DemiBold";
+    font-weight: 600;
+    src: url("assets/fonts/TT Commons Pro/TT\ Commons\ Pro\ DemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GT Alpina Light";
+    font-weight: light;
+    src: url("assets/fonts/GT\ Alpina/GTAlpina-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GT Alpina";
+    font-weight: normal;
+    src: url("assets/fonts/GT\ Alpina/GTAlpina-Regular") format("opentype");
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelTitleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 642px;
+    height: 121px;
+    gap: 8px;
+}
+
+.titleLabel {
+    font-family: TT Commons Pro;
+    font-weight: 450;
+    font-style: Normal;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #39494D;
+}
+
+.title {
+    font-family: TT Commons Pro;
+    font-weight: 600;
+    font-style: DemiBold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -3%;
+    text-align: center;
+    color: #212121;
+}
+
+.title>span {
+    font-family: "GT Alpina Light";
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -3%;
+    text-align: center;
+}
+
+.titleBody {
+    font-family: TT Commons Pro;
+    font-weight: 450;
+    font-style: Normal;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E2526;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.titleButton {
+    font-family: TT Commons Pro;
+    font-weight: 450;
+    font-style: Normal;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #BF564D;
+    width: 158px;
+}
+
+.titleButton > img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 6px;
+}

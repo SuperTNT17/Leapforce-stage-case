@@ -13,6 +13,16 @@ body {
     padding-right: 64px;
     padding-bottom: 96px;
     padding-left: 64px;
-    gap: 80px;
     background-color: #fffcfa;
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }

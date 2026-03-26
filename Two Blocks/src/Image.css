@@ -20,6 +20,7 @@ img {
     width: 644px;
     height: 515px;
     object-fit: cover;
+    border-radius: 4px;
 }
 
 .imageGradient {
@@ -28,6 +29,7 @@ img {
     width: 100%;
     height: calc(515px / 2);
     background: linear-gradient(0deg, #141414 0%, rgba(20, 20, 20, 0) 100%);
+    border-radius: 4px;
 }
 
 .imageCTA {
@@ -49,6 +51,7 @@ img {
     line-height: 32px;
     letter-spacing: -2%;
     vertical-align: bottom;
+    margin-bottom: 8px;
 }
 
 .imageTextSub {
