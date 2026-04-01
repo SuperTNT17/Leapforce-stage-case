@@ -1,0 +1,67 @@
+CMS-velden
+
+Titel
+verplicht
+default: "Titel"
+tooltip: "De titel van de pagina"
+beperkingen: er kan alleen tekst ingevuld worden
+
+Subtitel
+optioneel
+default: "Subtitel"
+tooltip: "De subtitel van de pagina"
+beperkingen: er kan alleen tekst ingevuld worden
+
+Titel button
+optioneel
+default: "button"
+tooltip: "Een knop onder de titel"
+beperkingen: er kan tekst en een url ingevuld worden
+
+Afbeelding 1
+verplicht
+default: een placeholder afbeelding
+tooltip: "De eerste afbeelding"
+beperkingen: er kan alleen een afbeelding gekozen worden
+
+Afbeelding 1 titel
+verplicht
+default: "Titel"
+tooltip: "De titel van de tekst op de eerste afbeelding"
+beperkingen: er kan alleen tekst worden ingevuld
+
+Afbeelding 1 tekst
+optioneel
+default: "Extra tekst"
+tooltip: "Extra tekst voor bij de eerste afbeelding"
+beperkingen: er kan alleen tekst worden ingevuld
+
+Afbeelding 1 button
+verplicht
+default: "button"
+tooltip: "De knop op de eerste afbeelding"
+beperkingen: er kan tekst en een url worden ingevuld
+
+Afbeelding 2
+verplicht
+default: een placeholder afbeelding
+tooltip: "De tweede afbeelding"
+beperkingen: er kan alleen een afbeelding gekozen worden
+
+Afbeelding 2 titel
+verplicht
+default: "Titel"
+tooltip: "De titel van de tekst op de tweede afbeelding"
+beperkingen: er kan alleen tekst worden ingevuld
+
+Afbeelding 2 tekst
+optioneel
+default: "Extra tekst"
+tooltip: "Extra tekst voor bij de tweede afbeelding"
+beperkingen: er kan alleen tekst worden ingevuld
+
+Afbeelding 2 button
+verplicht
+default: "button"
+tooltip: "De knop op de tweede afbeelding"
+beperkingen: er kan tekst en een url worden ingevuld
